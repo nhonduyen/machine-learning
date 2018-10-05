@@ -1,4 +1,7 @@
-﻿using System;
+﻿// data download link https://github.com/dotnet/machinelearning/blob/master/test/data/wikipedia-detox-250-line-data.tsv
+// test link: https://github.com/dotnet/machinelearning/blob/master/test/data/wikipedia-detox-250-line-test.tsv
+// https://docs.microsoft.com/en-us/dotnet/machine-learning/tutorials/sentiment-analysis
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -14,9 +17,7 @@ namespace sentimentdata
 {
     class Program
     {
-        // data download link https://github.com/dotnet/machinelearning/blob/master/test/data/wikipedia-detox-250-line-data.tsv
-        // test link: https://github.com/dotnet/machinelearning/blob/master/test/data/wikipedia-detox-250-line-test.tsv
-        // https://docs.microsoft.com/en-us/dotnet/machine-learning/tutorials/sentiment-analysis
+
         public static string _dataPath = Path.Combine(Environment.CurrentDirectory, "Data", "wikipedia-detox-250-line-data.tsv");
         public static string _testDataPath = Path.Combine(Environment.CurrentDirectory, "Data", "wikipedia-detox-250-line-test.tsv");
         public static string _modelpath = Path.Combine(Environment.CurrentDirectory, "Data", "Model.zip");
@@ -97,7 +98,7 @@ namespace sentimentdata
 
             foreach (var item in sentimentsAndPredictions)
             {
-               Console.WriteLine($"Sentiment: {item.sentiment.SentimentText} | Prediction: {(item.prediction.Sentiment ? "Negative" : "Positive")}");
+                Console.WriteLine($"Sentiment: {item.sentiment.SentimentText} | Prediction: {(item.prediction.Sentiment ? "Negative" : "Positive")}");
             }
         }
     }
