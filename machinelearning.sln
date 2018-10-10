@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "taxi", "taxi\taxi.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iris", "iris\iris.csproj", "{FEA73993-8312-410F-ADFC-EDD264597E58}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "player", "player\player.csproj", "{683A4322-E1D8-48D1-B7A0-C6F89797CC09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +60,17 @@ Global
 		{FEA73993-8312-410F-ADFC-EDD264597E58}.Release|x64.Build.0 = Release|Any CPU
 		{FEA73993-8312-410F-ADFC-EDD264597E58}.Release|x86.ActiveCfg = Release|Any CPU
 		{FEA73993-8312-410F-ADFC-EDD264597E58}.Release|x86.Build.0 = Release|Any CPU
+		{683A4322-E1D8-48D1-B7A0-C6F89797CC09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{683A4322-E1D8-48D1-B7A0-C6F89797CC09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{683A4322-E1D8-48D1-B7A0-C6F89797CC09}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{683A4322-E1D8-48D1-B7A0-C6F89797CC09}.Debug|x64.Build.0 = Debug|Any CPU
+		{683A4322-E1D8-48D1-B7A0-C6F89797CC09}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{683A4322-E1D8-48D1-B7A0-C6F89797CC09}.Debug|x86.Build.0 = Debug|Any CPU
+		{683A4322-E1D8-48D1-B7A0-C6F89797CC09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{683A4322-E1D8-48D1-B7A0-C6F89797CC09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{683A4322-E1D8-48D1-B7A0-C6F89797CC09}.Release|x64.ActiveCfg = Release|Any CPU
+		{683A4322-E1D8-48D1-B7A0-C6F89797CC09}.Release|x64.Build.0 = Release|Any CPU
+		{683A4322-E1D8-48D1-B7A0-C6F89797CC09}.Release|x86.ActiveCfg = Release|Any CPU
+		{683A4322-E1D8-48D1-B7A0-C6F89797CC09}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
